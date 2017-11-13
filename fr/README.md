@@ -1,5 +1,4 @@
-Launch Ranges
-=====
+# Launch Ranges
 
-## Une logithèque pour définir, créer, et utiliser les ensembles continus
+### Une logithèque en C++ pour définir, créer, et utiliser les ensembles continus
 
