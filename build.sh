@@ -11,9 +11,14 @@ if [ $2 ]; then
   rm -rf *
 fi
 
-cmake .. -DCMAKE_CXX_STANDARDS=$1
+v=$1
+
+export CPPV=${v}
+
+printf "Building with ${v}\n"
+
+cmake ..
 make
 
 echo "Finished!"
 exit 0
-  

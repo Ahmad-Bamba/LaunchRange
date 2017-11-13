@@ -4,10 +4,11 @@
 
 #define TESTS 1
 
-int main() {
+using namespace launchrange;
+
+int main( ) {
     assert(true);
-    
+
     std::cout << "All " << TESTS << " passed!\n";
     return 0;
 }
-
